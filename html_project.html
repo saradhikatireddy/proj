@@ -1,0 +1,150 @@
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0"
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>    
+<body>
+    <section class="header">
+        <nav>
+            <a href="html_project.html"><img src="eduford_img/logo.png"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times"onclick="hidemenu()"></i> 
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"> </i>
+        </nav>
+    </section>    
+<div class="text-box">
+<h1>world's biggest university</h1>
+<p>making website is now one of the easiest thing in the world. you
+    just need to learn HTML, CSS<br>javascript and you are good to go.
+</p>
+<a href="" class="visit">visit us to know more</a>
+</div>
+<!--- course -->
+<section class="course">
+    <h1>
+        courses we offer 
+    </h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+    </p>
+    <div class="row">
+        <div class="c1">
+            <h3>intermediate</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, nostrum? Aliquid, animi! Harum explicabo ab autem asperiores. Molestias sunt unde quasi, vero amet possimus ipsa distinctio. Quae architecto nam illum.</p>
+        </div>
+        <div class="c1">
+            <h3>intermediate</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, nostrum? Aliquid, animi! Harum explicabo ab autem asperiores. Molestias sunt unde quasi, vero amet possimus ipsa distinctio. Quae architecto nam illum.</p>
+        </div>
+        <div class="c1">
+            <h3>intermediate</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, nostrum? Aliquid, animi! Harum explicabo ab autem asperiores. Molestias sunt unde quasi, vero amet possimus ipsa distinctio. Quae architecto nam illum.</p>
+        </div>
+        
+    </div>
+</section>
+<section class="campus">
+        <h1>our global campus</h1>
+        <p>we have expanded our border</p>
+        <div class="row">
+            <div class="ca1">
+                <img src="eduford_img/london.png">
+                <div class="layer">
+                    <h3>london</h3>
+                </div>    
+            </div>
+            <div class="ca1">
+                <img src="eduford_img/newyork.png">
+                <div class="layer">
+                    <h3>new-york</h3>
+                </div>
+            </div>    
+            <div class="ca1">
+                <img src="eduford_img/washington.png">
+                <div class="layer">
+                    <h3>washington</h3>
+                </div>
+            </div>    
+        </div>
+</section>
+<section class="facal">
+    <h3>our facilities</h3>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+    <div class="row">
+        <div class="facilities">
+            <img src="eduford_img/library.png">
+            <h3>world class library</h3>
+            <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="facilities">
+            <img src="eduford_img/basketball.png">
+            <h3>largest plsy ground</h3>
+            <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="facilities">
+            <img src="eduford_img/cafeteria.png">
+            <h3>tasty and hygienic food</h3>
+            <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        </div>
+    </div>
+</section>
+<section class="test">
+    <h1>what our student says</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <div class="row">
+        <div class="testim">
+            <img src="eduford_img/user1.jpg">
+            <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut accusamus eos suscipit ipsam odio magnam a perferendis consequatur cumque nobis est itaque </p>
+            <h3>christine</h3>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            </div>
+        </div>
+        <div class="testim">
+            <img src="eduford_img/user2.jpg">
+            <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut accusamus eos suscipit ipsam odio magnam a perferendis consequatur cumque nobis est itaque </p>
+            <h3>david</h3>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="cta">
+    <h1>enroll for our various online courses<br>anywhere from the world</h1>
+    <a href="" class="visit">CONTACT US</a>
+</section>
+    
+<!---javascript------->   
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showmenu(){
+            navlinks.style.right ="0";
+        }
+        function hidemenu(){
+            navlinks.style.right= "-200";
+
+        }
+    </script>
+</body>
+</html>
